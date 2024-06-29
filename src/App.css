@@ -1,0 +1,39 @@
+{*
+}
+      footer {
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+        background-color: #f8f9fa;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+
+      .card-columns {
+        @include media-breakpoint-only(lg) {
+          column-count: 4;
+        }
+        @include media-breakpoint-only(xl) {
+          column-count: 5;
+        }
+      }
+      
+.navbar{
+  background-color: #20c997;
+  font-family: 'Trebuchet MS';
+}
+.navbar .nav-link a{
+  color: #f8f9fa;
+  font-size: larger;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navbar .nav-link a:hover{
+  color: #f83939ec;
+}
+.navbar .nav-link .active{
+  background-color: #1ff3a9d1;
+}
